@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+}
+#book {
+  margin: 5px;
+}
+@media screen and (max-width: 768px) {
+  #book {
+    max-width: 75px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  #book {
+    max-width: 120px;
+    width: auto;
+  }
+}
