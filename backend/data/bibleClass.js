@@ -46,6 +46,10 @@ class Bible{
       book.replace(/\s/g,'')
       return this.full[`${book}`][chapter - 1].verses[verse - 1].text
    }
+   getAllVersesOfAChapter(book, chapter){
+      book.replace(/\s/g, '')
+      return this.full[`${book}`][`${chapter}`].verses
+   }
 
 }
 module.exports = Bible

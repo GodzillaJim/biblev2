@@ -7,16 +7,18 @@
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/lab": "4.0.0-alpha.56",
-    "axios": "0.21.0",
+    "axios": "^0.21.0",
     "body-parser": "1.19.0",
     "bootstrap": "4.5.3",
-    "cors": "2.8.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "4.17.1",
+    "jquery": "^3.5.1",
     "lodash": "4.17.20",
     "mdbreact": "4.27.0",
     "prop-types": "15.7.2",
     "r": "0.0.5",
-    "react": "17.0.1",
+    "react": "^17.0.1",
     "react-bootstrap": "1.4.0",
     "react-dom": "17.0.0",
     "react-router": "5.2.0",
@@ -32,5 +34,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

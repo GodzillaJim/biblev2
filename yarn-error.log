@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cors
+
+PATH: 
+  C:\Rtools\bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Calibre2\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\projects\Artificial Intelligence\Python\python_scripts;C:\gradle\gradle-6.4.1\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\heroku\bin;C:\wamp64\bin\php\php7.4.0;C:\Rtools\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\ActiveState Komodo IDE 10\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Calibre2\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Symfony;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Troll\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Troll\AppData\Local\Programs\Python\Python38\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\Troll\AppData\Local\Yarn\bin;C:\Users\Troll\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Troll;C:\Program Files\JetBrains\WebStorm 2019.3\bin;C:\Users\Troll\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3;C:\sqlite;C:\Users\Troll\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2019.3.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;;C:\maven\bin;C:\Program Files\JetBrains\PyCharm 2019.3.4\bin;;D:\projects\Artificial Intelligence\Python\python_scripts;C:\Program Files\heroku\bin;C:\wamp64\bin\php\php7.4.0;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/core/-/core-3.9.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141091:19)
+      at Object.onceWrapper (events.js:299:28)
+      at ClientRequest.emit (events.js:210:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:299:28)
+      at TLSSocket.emit (events.js:210:5)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "bible",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "@material-ui/core": "4.11.0",
+      "@material-ui/lab": "4.0.0-alpha.56",
+      "axios": "0.21.0",
+      "body-parser": "1.19.0",
+      "bootstrap": "4.5.3",
+      "cors": "2.8.5",
+      "express": "4.17.1",
+      "lodash": "4.17.20",
+      "mdbreact": "4.27.0",
+      "prop-types": "15.7.2",
+      "r": "0.0.5",
+      "react": "17.0.1",
+      "react-bootstrap": "1.4.0",
+      "react-dom": "17.0.0",
+      "react-router": "5.2.0",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "3.4.3"
+    },
+    "devDependencies": {
+      "typescript": "3.8.3"
+    },
+    "scripts": {
+      "start": "react-scripts start $$ node backend/server.js",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
